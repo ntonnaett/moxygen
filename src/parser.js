@@ -48,7 +48,7 @@ function toMarkdown(element, context) {
             }
             break;
 
-          case 'parameteritem': s = '* '; break;
+          case 'parameteritem': s = '    * '; break;
           case 'programlisting': s = '\n```cpp\n'; break;
           case 'orderedlist':
             context.push(element);
